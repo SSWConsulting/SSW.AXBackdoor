@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="List.master.cs" Inherits="TopnewDataCenter.Web.MasterPages.List" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MasterPage for List pages.</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="width: 96%; text-align: left; padding-top: 10px; padding-bottom: 10px;
+        padding-left: 20px">
+        <a href="/LoginExit.aspx" style="font-weight: bold; color: #555555;" target="_self">
+            Exit</a>
+    </div>
+    <div>
+        <table style="width: 100%" align="center" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td align="left">
+                    <div class="query">
+                         <div class="navigator">
+                        [
+                        <asp:ContentPlaceHolder ID="title" runat="server">
+                        </asp:ContentPlaceHolder>
+                        ]
+                    </div>
+                        <asp:ContentPlaceHolder ID="search" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <div class="vote">
+                        <asp:ContentPlaceHolder ID="operation" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <asp:ContentPlaceHolder ID="gridView" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 10px; padding-top: 10px">
+                    <asp:ContentPlaceHolder ID="pager" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

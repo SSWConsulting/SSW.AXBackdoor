@@ -1,0 +1,459 @@
+﻿body
+{
+    margin: 0;
+    padding: 0;
+    padding-left: 4px;
+    padding-right: 3px;
+    font-size: 12px;
+    font-family: "Times New Roman" , Times, serif, "宋体";
+}
+
+.main
+{
+    height: 100%;
+}
+
+form
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+a
+{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+a:link
+{
+    color: Blue;
+    text-decoration: underline;
+}
+a:visited
+{
+    color: #800080;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #ff0000;
+    text-decoration: none;
+}
+a:active
+{
+    color: #222;
+    text-decoration: none;
+}
+.font1
+{
+    font-weight: bold;
+    color: red;
+}
+
+.Baner
+{
+    float: left;
+    width: 45%;
+    margin-right: 0;
+    height: 342px;
+    background-image: url(../Images/adminLogo.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.Login
+{
+    margin-top: 10px;
+    height: 309px;
+    padding-top: 10px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.Login ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.Login li
+{
+    color: #666666;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    margin-left: 50px;
+    padding: 6px 0;
+}
+.Login input
+{
+    height: 18px;
+}
+#LoginTitle
+{
+    line-height: 40px;
+    height: 40px;
+    color: #004391;
+    font-weight: bold;
+    font-size: 16px;
+}
+.LoginBottom
+{
+    width: 166px;
+    height: 20px;
+    border: 1px solid #666666;
+    line-height: 20px;
+}
+.Bottom
+{
+    position: absolute;
+    width: 100%;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #f3f3f3;
+    line-height: 36px;
+    color: #ffffff;
+    height: 36px;
+    background-color: #535353;
+}
+
+#toptitle
+{
+    line-height: 88px;
+    height: 88px;
+    padding-left: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #6699cc;
+    background: url(../images/Bg_top.jpg) no-repeat top;
+    margin-top: 5px;
+}
+.logo
+{
+    width: 350px;
+    height: 68px;
+    background: url(../images/adminLogo.jpg) no-repeat top;
+}
+/*文章添加文章*/
+
+.hidden
+{
+    display: none;
+}
+
+#header
+{
+    height: 25px;
+    background: url(../admin/images/bg_cate.gif) bottom repeat-x;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #6699cc;
+    margin-top: 10px;
+    padding-left: 0px;
+}
+#header ul
+{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+#header li
+{
+    float: left;
+    background: #6699CC;
+    border: solid 1px #8EA2C2;
+    border-bottom: solid 0px #8EA2C2;
+    margin-left: 2px;
+    line-height: 25px;
+    height: 25px;
+}
+#header a
+{
+    display: block;
+    padding: 1px 1px 1px;
+    font-weight: bold;
+}
+#header .current
+{
+    background: #EEEEEE;
+    border: solid 1px #8EA2C2;
+    border-bottom: solid 1px #EEEEEE;
+}
+#header .current a
+{
+    padding-bottom: 0px;
+    color: #000000;
+    font-weight: bold;
+}
+
+/*后台头部和脚部css*/
+.Top
+{
+    /*background: url(../images/Bg_top.gif) repeat-x left top;*/
+    background: RGB(252,92,6);
+    border: 1px solid #6699cc;
+    color: #55555;
+    width: 100%;
+}
+.Top a
+{
+    padding: 0 3px;
+    color: #555555;
+    font-weight: bold;
+}
+.Top a:hover
+{
+    color: #ffffff;
+}
+.Buttom
+{
+    line-height: 36px;
+    height: 36px;
+    background: url(../images/Bg_buttom.gif) repeat-x left top;
+    border: 1px solid #6699cc;
+}
+/*左边模块*/
+.RootNode
+{
+    font-weight: bold;
+    line-height: 200%;
+    margin-top: 10px;
+    margin-top: 10px;
+    color: #555555;
+    font-size: 13px;
+}
+
+
+/*按钮*/
+.navigator
+{
+    height: 20px;
+    line-height: 20px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin: 10px 10px 15px 10px;
+    border-bottom: 1px solid #e1e1e1;
+    width: 97%;
+}
+.query
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    border: 1px solid #e1e1e1;
+}
+.input1
+{
+    width: 120px;
+    height: 20px;
+    border: 1px solid #979C9F;
+}
+.select1
+{
+    width: 126px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.bt1
+{
+    width: 76px;
+    height: 23px;
+    background-image: url(../images/query.gif);
+    background-repeat: no-repeat;
+    border: 0;
+}
+.bt2
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    width: 58px;
+    background: url( '/images/Bt_background.gif' ) no-repeat;
+    line-height: 21px;
+    text-align: center;
+    height: 22px;
+    cursor: pointer;
+}
+.bt3
+{
+    width: 94px;
+    height: 21px;
+    background: url(../images/Bg2_background.gif);
+    background-repeat: no-repeat;
+    border: 0;
+    line-height: 21px;
+    text-align: center;
+}
+
+.vote
+{
+    padding-left: 1px;
+    padding-top: 3px;
+    margin-bottom: 8px;
+}
+/*文章添加*/
+.input2
+{
+    width: 300px;
+    height: 20px;
+    border: 1px solid #7F9DB9;
+}
+.input3
+{
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
+.select2
+{
+    width: 306px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+/*返回列表*/
+.back
+{
+    float: right;
+    border: 1px solid #6699cc;
+    background: #eeeeee;
+    color: #000000;
+    margin-right: 20px;
+    width: 80px;
+}
+/*提交按钮*/
+.btconfig
+{
+    text-align: center;
+    padding: 3px 0;
+    background-color: #f1f1f1;
+    border: 1px solid #e1e1e1;
+}
+
+
+/*左边菜单*/
+.leftMeau
+{
+    width: 170px;
+    background-color: #ddd;
+    padding: 5px 0;
+    margin: 0 5px;
+}
+.leftMeau dt
+{
+    width: 160px;
+    height: 35px;
+    line-height: 35px;
+    color: #20599c;
+    background: url(../images/shop_ul_13.gif);
+}
+.leftMeau dd
+{
+    width: 140px;
+    text-align: center;
+    border-bottom: 1px dotted #ddd;
+    margin: 0 10px;
+    height: 25px;
+    line-height: 25px;
+}
+.leftMeau dd a
+{
+    color: #000;
+}
+.leftMeau .centent
+{
+    width: 160px;
+    margin: 0 5px;
+    background-color: #fff;
+}
+.iconChange
+{
+    float: left;
+}
+
+/*欢迎页*/
+body, td, th
+{
+    font-size: 12px;
+}
+.welcome
+{
+    margin: 10px 6px 0 6px;
+}
+.welcome .title
+{
+    line-height: 30px;
+    height: 30px;
+    margin-left: 23px;
+    background-color: #eeeeee;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #6699cc;
+    border-bottom: none;
+}
+.welcome .describe
+{
+    line-height: 30px;
+    height: 30px;
+    border-top: 1px solid #6699cc;
+    border-bottom: 1px solid #f1f1f1;
+}
+.welcome .content
+{
+    line-height: 200%;
+    padding: 5px 20px;
+}
+.welcome .content .product
+{
+    border: 1px solid #6699cc;
+    margin-bottom: 10px;
+}
+.welcome .content .product .product_title
+{
+    background-color: #DEEDF9;
+    font-weight: bold;
+    padding-left: 6px;
+}
+.gridviewheaderBG
+{
+    background: url(/images/gridViewHeaderBG.jpg) repeat-x left top;
+    font-weight: normal;
+}
+.PageTipTable
+{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+    height: 26px;
+}
+.PageTipTableTD1
+{
+    width: 12px;
+    text-align: left;
+    background: url(../images/middleBG.jpg) repeat-x left top;
+    vertical-align: middle;
+}
+.PageTipTableTD2
+{
+    width: 35px;
+    text-align: left;
+    background: url(../images/middleBG.jpg) repeat-x left top;
+    vertical-align: middle;
+}
+
+.PageTipTableTD3
+{
+    text-align: left;
+    background: url(../images/middleBG.jpg) repeat-x left top;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FE6424;
+}
+.GridViewTemplateField
+{
+}
