@@ -20,7 +20,7 @@ namespace WebSite
             string loginID = this.txtLoginID.Text.Trim();
             string pwd = this.txtPwd.Text.Trim();
 
-            if (loginID == "axadmin" && pwd == "Perfect2009!")
+            if (loginID == "admin" && pwd == "admin")
             {
                 //Session
                 Session["currentSUser_ID"] = loginID;
